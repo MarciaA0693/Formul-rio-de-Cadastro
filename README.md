@@ -3,7 +3,7 @@ Este projeto é baseado no curso [JavaScript e TypeScript do básico ao avançad
 
 ![](github/FormPergunta.png)
 
-## 🚀 Technologias
+## 🚀 Tecnologias
 - HTML
 - CSS
 - Javascript
