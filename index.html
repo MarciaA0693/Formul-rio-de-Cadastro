@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Validação</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Formulário de Cadastro</h1>
+        <ul>
+            <li>Nenhum campo pode estar vazio</li>
+            <li>Usuário só poderá conter letra e/ou números</li>
+            <li>No campo usuário deverá ter entre 3 e 12 caracteres</li>
+            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
+
+        <form action="/" method="POST" class="formulario">
+            <label>Nome</label>
+            <input type="text" name="nome" class="nome validar">
+            <label>Sobrenome</label> 
+            <input type="text" name="sobrenome" class="sobrenome validar"><br>
+            <label>CPF</label><br>
+            <input type="text" name="cpf" class="cpf validar">
+            <label>Usuário</label>
+            <input type="text" name="usuario" class="usuario validar">
+            <label>Senha</label>
+            <input type="password" name="senha" class="senha validar">
+            <label>Repetir Senha</label>
+            <input type="password" name="repetir-senha" class="repetir-senha validar">
+            <button>Enviar</button>
+        </form>
+    </section>
+
+    <script src="assets/js/validaCpf.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
